@@ -1,0 +1,20 @@
+{
+  "name": "@patronumlabs/vanity-nick-method",
+  "version": "1.0.0",
+  "description": "A simple Hardhat TypeScript script that reads the bytecode of compiled contracts and generates vanity addresses based on nick method and a random r generated value matched with regex provided by the developer.",
+  "scripts": {
+    "build": "npx hardhat compile",
+    "vanity": "npx hardhat run scripts/vanity.ts",
+    "clean": "npx hardhat clean"
+  },
+  "author": "Patronum Labs",
+  "license": "MIT",
+  "dependencies": {
+    "@patronumlabs/force-transfer": "^2.1.0",
+    "@patronumlabs/nick-method": "^1.1.0"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.6"
+  }
+}
