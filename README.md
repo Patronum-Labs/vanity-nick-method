@@ -25,8 +25,8 @@ Please note that these benchmarks are approximations and may vary based on the s
 1- Clone the repository:
 
 ```bash
-git clone https://github.com/Patronum-Labs/vanity-create2.git
-cd vanity-create2
+git clone https://github.com/Patronum-Labs/vanity-nick-method.git
+cd vanity-nick-method
 ```
 
 2- Install the dependencies:
